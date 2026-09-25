@@ -1,0 +1,1 @@
+No license is supplied for the original companion code, explanatory documents or scalar records. Public access is not described as an open-source release. Upstream datasets, weights and dependencies retain their separate terms and are not re-licensed here. No paper manuscript or meteorological assets are included.

@@ -1,0 +1,457 @@
+[
+  {
+    "name": "fp32_s2_fp32",
+    "mode": "fp32",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 918,
+    "accuracy": 0.918,
+    "cross_entropy": 0.3094752032702013,
+    "seconds": 0.12118268013000488,
+    "accuracy_ci": [
+      0.9,
+      0.934
+    ],
+    "accuracy_change_from_fp32": 0.0,
+    "paired_accuracy_change_ci": [
+      0.0,
+      0.0
+    ],
+    "accuracy_change_from_none": 0.001,
+    "paired_vs_none_ci": [
+      -0.004,
+      0.006
+    ],
+    "ce_ci": [
+      0.24296773898584562,
+      0.3814739687211583
+    ],
+    "logit_mse": 0.0,
+    "logit_mse_ci": [
+      0.0,
+      0.0
+    ],
+    "probability_l1_mean": 0.0
+  },
+  {
+    "name": "amp_s2_fp32",
+    "mode": "amp",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 918,
+    "accuracy": 0.918,
+    "cross_entropy": 0.30960978640299797,
+    "seconds": 0.21663975715637207,
+    "accuracy_ci": [
+      0.9,
+      0.934
+    ],
+    "accuracy_change_from_fp32": 0.0,
+    "paired_accuracy_change_ci": [
+      0.0,
+      0.0
+    ],
+    "accuracy_change_from_none": 0.001,
+    "paired_vs_none_ci": [
+      -0.004,
+      0.006
+    ],
+    "ce_ci": [
+      0.23959618055082885,
+      0.38075214623110043
+    ],
+    "logit_mse": 2.182912745572324e-05,
+    "logit_mse_ci": [
+      2.0384259324067614e-05,
+      2.3360758342359255e-05
+    ],
+    "probability_l1_mean": 0.0005020621605739304
+  },
+  {
+    "name": "none_s2_fp32",
+    "mode": "none",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 917,
+    "accuracy": 0.917,
+    "cross_entropy": 0.3081430967732857,
+    "seconds": 0.62900710105896,
+    "accuracy_ci": [
+      0.9,
+      0.934
+    ],
+    "accuracy_change_from_fp32": -0.001,
+    "paired_accuracy_change_ci": [
+      -0.006,
+      0.004
+    ],
+    "accuracy_change_from_none": 0.0,
+    "paired_vs_none_ci": [
+      0.0,
+      0.0
+    ],
+    "ce_ci": [
+      0.2385815092547555,
+      0.3749213951239461
+    ],
+    "logit_mse": 0.008547499187960227,
+    "logit_mse_ci": [
+      0.008073323928627195,
+      0.009030536920491194
+    ],
+    "probability_l1_mean": 0.010660450399586139
+  },
+  {
+    "name": "block_s2_fp32",
+    "mode": "block",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 920,
+    "accuracy": 0.92,
+    "cross_entropy": 0.3091418858566197,
+    "seconds": 1.1765985488891602,
+    "accuracy_ci": [
+      0.902,
+      0.936
+    ],
+    "accuracy_change_from_fp32": 0.002,
+    "paired_accuracy_change_ci": [
+      -0.002,
+      0.006
+    ],
+    "accuracy_change_from_none": 0.003,
+    "paired_vs_none_ci": [
+      0.0,
+      0.007
+    ],
+    "ce_ci": [
+      0.23992075749093755,
+      0.38238467969828166
+    ],
+    "logit_mse": 0.0035515058022604303,
+    "logit_mse_ci": [
+      0.003316860589931532,
+      0.003813686975090727
+    ],
+    "probability_l1_mean": 0.006760029105777706
+  },
+  {
+    "name": "smooth_s2_fp32",
+    "mode": "smooth",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 920,
+    "accuracy": 0.92,
+    "cross_entropy": 0.3085253994209631,
+    "seconds": 1.513519048690796,
+    "accuracy_ci": [
+      0.904,
+      0.936
+    ],
+    "accuracy_change_from_fp32": 0.002,
+    "paired_accuracy_change_ci": [
+      -0.0010249999999999986,
+      0.006
+    ],
+    "accuracy_change_from_none": 0.003,
+    "paired_vs_none_ci": [
+      0.0,
+      0.007
+    ],
+    "ce_ci": [
+      0.24127836590462598,
+      0.3773797674234741
+    ],
+    "logit_mse": 0.003590688190778346,
+    "logit_mse_ci": [
+      0.003378920159724466,
+      0.0038247840085073436
+    ],
+    "probability_l1_mean": 0.006706977043594653
+  },
+  {
+    "name": "learned_s2_fp32",
+    "mode": "learned",
+    "s": 2,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 918,
+    "accuracy": 0.918,
+    "cross_entropy": 0.3079743980192209,
+    "seconds": 1.8857629299163818,
+    "accuracy_ci": [
+      0.901,
+      0.934
+    ],
+    "accuracy_change_from_fp32": 0.0,
+    "paired_accuracy_change_ci": [
+      -0.003,
+      0.003
+    ],
+    "accuracy_change_from_none": 0.001,
+    "paired_vs_none_ci": [
+      -0.004,
+      0.005
+    ],
+    "ce_ci": [
+      0.2406764297692638,
+      0.37969070947395145
+    ],
+    "logit_mse": 0.003512723929792287,
+    "logit_mse_ci": [
+      0.0032839251123372632,
+      0.003755359670320607
+    ],
+    "probability_l1_mean": 0.006701996436852756
+  },
+  {
+    "name": "block_s2_fp16",
+    "mode": "block",
+    "s": 2,
+    "precision": "fp16",
+    "n": 1000,
+    "correct": 919,
+    "accuracy": 0.919,
+    "cross_entropy": 0.3086385056439291,
+    "seconds": 1.2509422302246094,
+    "accuracy_ci": [
+      0.902,
+      0.935
+    ],
+    "accuracy_change_from_fp32": 0.001,
+    "paired_accuracy_change_ci": [
+      -0.002,
+      0.005
+    ],
+    "accuracy_change_from_none": 0.002,
+    "paired_vs_none_ci": [
+      -0.002,
+      0.006
+    ],
+    "ce_ci": [
+      0.24139918741981004,
+      0.3853572871889687
+    ],
+    "logit_mse": 0.0036400719509753934,
+    "logit_mse_ci": [
+      0.0034013513047341437,
+      0.003885175356925117
+    ],
+    "probability_l1_mean": 0.0068315171822670925
+  },
+  {
+    "name": "block_s4_fp32",
+    "mode": "block",
+    "s": 4,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 919,
+    "accuracy": 0.919,
+    "cross_entropy": 0.30896930576601495,
+    "seconds": 1.2754371166229248,
+    "accuracy_ci": [
+      0.902,
+      0.936
+    ],
+    "accuracy_change_from_fp32": 0.001,
+    "paired_accuracy_change_ci": [
+      -0.003,
+      0.005
+    ],
+    "accuracy_change_from_none": 0.002,
+    "paired_vs_none_ci": [
+      0.0,
+      0.005
+    ],
+    "ce_ci": [
+      0.24438566339621748,
+      0.3838068431691441
+    ],
+    "logit_mse": 0.005243592720087633,
+    "logit_mse_ci": [
+      0.00491235750951506,
+      0.005587022834011501
+    ],
+    "probability_l1_mean": 0.008790878319377752
+  },
+  {
+    "name": "block_s4_fp16",
+    "mode": "block",
+    "s": 4,
+    "precision": "fp16",
+    "n": 1000,
+    "correct": 919,
+    "accuracy": 0.919,
+    "cross_entropy": 0.3079478365210066,
+    "seconds": 1.3308966159820557,
+    "accuracy_ci": [
+      0.902,
+      0.935
+    ],
+    "accuracy_change_from_fp32": 0.001,
+    "paired_accuracy_change_ci": [
+      -0.003,
+      0.005
+    ],
+    "accuracy_change_from_none": 0.002,
+    "paired_vs_none_ci": [
+      -0.002,
+      0.006
+    ],
+    "ce_ci": [
+      0.23920914434772864,
+      0.3810389928175903
+    ],
+    "logit_mse": 0.005315073742268666,
+    "logit_mse_ci": [
+      0.004968837723880915,
+      0.005669790003246709
+    ],
+    "probability_l1_mean": 0.007915950044472009
+  },
+  {
+    "name": "block_s8_fp32",
+    "mode": "block",
+    "s": 8,
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 919,
+    "accuracy": 0.919,
+    "cross_entropy": 0.30917450337246805,
+    "seconds": 1.5454020500183105,
+    "accuracy_ci": [
+      0.902975,
+      0.935
+    ],
+    "accuracy_change_from_fp32": 0.001,
+    "paired_accuracy_change_ci": [
+      -0.003,
+      0.005
+    ],
+    "accuracy_change_from_none": 0.002,
+    "paired_vs_none_ci": [
+      -0.002,
+      0.006
+    ],
+    "ce_ci": [
+      0.23734645517411215,
+      0.3796190849864182
+    ],
+    "logit_mse": 0.005884211848832301,
+    "logit_mse_ci": [
+      0.005547183181777239,
+      0.006242176792508039
+    ],
+    "probability_l1_mean": 0.008854832390221699
+  },
+  {
+    "name": "block_s8_fp16",
+    "mode": "block",
+    "s": 8,
+    "precision": "fp16",
+    "n": 1000,
+    "correct": 917,
+    "accuracy": 0.917,
+    "cross_entropy": 0.31012101935986425,
+    "seconds": 1.6133739948272705,
+    "accuracy_ci": [
+      0.901,
+      0.934
+    ],
+    "accuracy_change_from_fp32": -0.001,
+    "paired_accuracy_change_ci": [
+      -0.005,
+      0.003
+    ],
+    "accuracy_change_from_none": 0.0,
+    "paired_vs_none_ci": [
+      -0.005,
+      0.005
+    ],
+    "ce_ci": [
+      0.24032675865418915,
+      0.38361156527289786
+    ],
+    "logit_mse": 0.006029569072791298,
+    "logit_mse_ci": [
+      0.005678337702554713,
+      0.006384752006173924
+    ],
+    "probability_l1_mean": 0.009346636763134906
+  },
+  {
+    "name": "block_sglobal_fp32",
+    "mode": "block",
+    "s": "global",
+    "precision": "fp32",
+    "n": 1000,
+    "correct": 919,
+    "accuracy": 0.919,
+    "cross_entropy": 0.3068385944159204,
+    "seconds": 1.7311210632324219,
+    "accuracy_ci": [
+      0.902,
+      0.935
+    ],
+    "accuracy_change_from_fp32": 0.001,
+    "paired_accuracy_change_ci": [
+      -0.002,
+      0.005
+    ],
+    "accuracy_change_from_none": 0.002,
+    "paired_vs_none_ci": [
+      -0.002,
+      0.007
+    ],
+    "ce_ci": [
+      0.23644428808880472,
+      0.38164436639659916
+    ],
+    "logit_mse": 0.006411097987974563,
+    "logit_mse_ci": [
+      0.00602724631854016,
+      0.006788978406847806
+    ],
+    "probability_l1_mean": 0.009647158399809704
+  },
+  {
+    "name": "block_sglobal_fp16",
+    "mode": "block",
+    "s": "global",
+    "precision": "fp16",
+    "n": 1000,
+    "correct": 918,
+    "accuracy": 0.918,
+    "cross_entropy": 0.30719850002347665,
+    "seconds": 1.8497436046600342,
+    "accuracy_ci": [
+      0.901,
+      0.935
+    ],
+    "accuracy_change_from_fp32": 0.0,
+    "paired_accuracy_change_ci": [
+      -0.003,
+      0.003
+    ],
+    "accuracy_change_from_none": 0.001,
+    "paired_vs_none_ci": [
+      -0.003,
+      0.005
+    ],
+    "ce_ci": [
+      0.24181287051935144,
+      0.38444111670538694
+    ],
+    "logit_mse": 0.006166328856013752,
+    "logit_mse_ci": [
+      0.005812687454279139,
+      0.006554925524071742
+    ],
+    "probability_l1_mean": 0.00928318736499158
+  }
+]

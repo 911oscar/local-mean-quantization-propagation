@@ -1,0 +1,114 @@
+{
+  "data/mechanism_all_cases.json": {
+    "sha256": "5220363e04386eb38be83131cd5a34834bd2c3396a4250d982171fe794105475",
+    "source": "existing CIFAR-10 scalar evidence: L1R-006/mechanism_all_cases.json"
+  },
+  "data/adverse_and_false_alarm_cases.json": {
+    "sha256": "559dc463ea86eb6195ebd218dc1af3d5d831b56c4fc8d74da406ad3ae8f12874",
+    "source": "existing CIFAR-10 scalar evidence: L1R-006/adverse_and_false_alarm_cases.json"
+  },
+  "data/mechanism_groups.json": {
+    "sha256": "93166413efa3041aee2b898bd4d2a136d6237ad56fdad1e9de1fbd34921c3ea5",
+    "source": "existing CIFAR-10 scalar evidence: L1R-006/mechanism_groups.json"
+  },
+  "data/ce_cases.json": {
+    "sha256": "001f8691215a9c70ac3ae449ad485ea320fd9d1e6d774acbbec242bc7580c6bf",
+    "source": "existing CIFAR-10 scalar evidence: L1R-006/ce_cases.json"
+  },
+  "data/ce_summary.json": {
+    "sha256": "7954aa3862b1fea26be47d8d15ee2afcb057844703235e6049170197c6bf21d4",
+    "source": "existing CIFAR-10 scalar evidence: L1R-006/ce_summary.json"
+  },
+  "data/task_statistics.json": {
+    "sha256": "a8c1807e1ee710aa49e82b555bdd55d9444b8212198f170cc3cc61f73ee8e758",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005/task_statistics.json"
+  },
+  "data/reference_levels.json": {
+    "sha256": "1b95c96a25c3ac2a25c261bd81f02f1d9ba12caca62981318f9e8376b8b3db41",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005/reference_levels.json"
+  },
+  "data/requantization.json": {
+    "sha256": "1a90b3d0d4bf8e95e59d5d8c565a4d0fba230d7cd0300c766c95a77eecaeb124",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005/requantization.json"
+  },
+  "data/mechanism_statistics.json": {
+    "sha256": "09e924a21f6456ed5ce3c79446665a612aa4911862c047e163da3d26ca460821",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005/mechanism_statistics.json"
+  },
+  "data/residual_coverage_summary.json": {
+    "sha256": "5ba8d66d99494852fd57a874d9a002884f5d9b173fb5a3936f43510e7b4e6e5b",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005/residual_coverage_summary.json"
+  },
+  "data/data_plan.json": {
+    "sha256": "46cea6d16ccb651c6252bfd126bfb66b2e3d7be6a2d02f11bcdfd92502a7156b",
+    "source": "existing CIFAR-10 scalar evidence: L1R-003/data_plan.json"
+  },
+  "data/matched_amplitudes.json": {
+    "sha256": "646b1da137e2ef8c80a643e832b45a5cc275aa94dd33552115b5df4b0505a721",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005-FINAL/matched_amplitudes.json"
+  },
+  "data/cost_summary.json": {
+    "sha256": "f1e98b80acf9010aa521dca453739ae15174d4df364dd6f158a0796fbae35751",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005-FINAL/cost_summary.json"
+  },
+  "data/target_precision_summary.json": {
+    "sha256": "1306e8e9a3d8908e771efa44bf9f5d14f05e3e947a410cfb54ec0bda79b4c456",
+    "source": "existing CIFAR-10 scalar evidence: L1R-005-FINAL/target_precision_summary.json"
+  },
+  "data/margin_groups.json": {
+    "sha256": "22ae4472cdbc6bee4e27b65bcc1f2eb523a4c8996e93a23a0ad76cfe0633a98a",
+    "source": "existing CIFAR-10 scalar evidence: L1R-007/margin_groups.json"
+  },
+  "data/margin_cases.json": {
+    "sha256": "1f6a8cbf468fadd8d9b54d613f779a0f5e26d15aa5af640caa23084feb7ecc82",
+    "source": "existing CIFAR-10 scalar evidence: L1R-007/margin_cases.json"
+  },
+  "data/abstention_curve.json": {
+    "sha256": "3e221e102a10e44fdea716eb3a7396a1a268c6a1cbf25be69c934a66d803b23f",
+    "source": "existing CIFAR-10 scalar evidence: L1R-007/abstention_curve.json"
+  },
+  "data/cost_components.json": {
+    "sha256": "246997e35b8ff0b93d12284af13b965ae46da2f1c23209506cf5a3fc9f2ecd0a",
+    "source": "existing CIFAR-10 scalar evidence: L1R-004-COST/components.json"
+  },
+  "code/public_common.py": {
+    "sha256": "ed8978f6ceadc523338fc236622d297cfa364d795d10a5a013b1d499be757029",
+    "source": "inference implementation; only output/asset path plumbing changed"
+  },
+  "code/public_mechanism.py": {
+    "sha256": "0d308ddb336ce66394e28dda7e86abcd49ef1f9c8b926b67337b489309513c08",
+    "source": "original public-model mechanism implementation"
+  },
+  "code/public_task.py": {
+    "sha256": "ad2f9eeae6bd68e2cfdef0e5c642bbd5292a64e30234c57e0e6f125332bf82db",
+    "source": "valid task/fit/precision section only; superseded timing loop excluded"
+  },
+  "code/public_cost.py": {
+    "sha256": "27d9b0722131ff61fcc2528bf6076a97bdb2279420cc72fe145a3c53fadbaa3b",
+    "source": "valid final timing implementation; learned parameter path is configurable"
+  },
+  "README.md": {
+    "sha256": "bb4845b2e06fc3a681b456e514999de1835a95a9f1b6c6a4e34bedf9fec21cfd",
+    "source": "new public documentation"
+  },
+  "docs/PROTOCOL.md": {
+    "sha256": "8d9b10362ef4af6100db57602e0e9f1f24ad98417ce001a018f5dbc074ebe2d5",
+    "source": "new public protocol account"
+  },
+  "docs/RESULTS.md": {
+    "sha256": "bca064f2077b21035185126b3b35f4979457a299adabe5dabee94ba0d3b67a2b",
+    "source": "new public explanatory documentation"
+  },
+  "docs/REPRODUCE.md": {
+    "sha256": "f0019c5ba6a9410f73915580611ac413824f5fe3d80e1fa929ffb94595bee3da",
+    "source": "new public reproduction instructions"
+  },
+  "NOTICE.md": {
+    "sha256": "a9a8a104f3a05847ea75b0367f7da25b967c40481a83aeb8e31b1c6b31e4978e",
+    "source": "user-confirmed no-license notice"
+  },
+  "code/verify_records.py": {
+    "sha256": "bf5f882f90e87f71d5b62d789599819cf7d92898b49928b6f852d0ef9aed45d5",
+    "source": "lightweight record verification"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "block": "all",
+    "n": 720,
+    "covered": 658,
+    "outside": 62,
+    "affine_candidates": 2,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 0,
+    "n": 120,
+    "covered": 108,
+    "outside": 12,
+    "affine_candidates": 0,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 2,
+    "n": 120,
+    "covered": 115,
+    "outside": 5,
+    "affine_candidates": 0,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 3,
+    "n": 120,
+    "covered": 115,
+    "outside": 5,
+    "affine_candidates": 0,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 5,
+    "n": 120,
+    "covered": 104,
+    "outside": 16,
+    "affine_candidates": 0,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 6,
+    "n": 120,
+    "covered": 105,
+    "outside": 15,
+    "affine_candidates": 0,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  },
+  {
+    "block": 8,
+    "n": 120,
+    "covered": 111,
+    "outside": 9,
+    "affine_candidates": 2,
+    "candidate_actual_negative": 0,
+    "note": "R covers ideal projected residual; candidates are affine diagnostics, not natural nonlinear certificates"
+  }
+]
